@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'DFVN';
+    src: url('./DFVNLuckySkirt/DFVNLuckySkirt.ttf');
+}
+@font-face {
+    font-family: 'yevesa';
+    src: url('./Yeseva_One/YesevaOne-Regular.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 60px 20px;
+}
+
+* {
+   font-family: DFVN;
+}
+
+p {
+    margin: 0;
+}
+
+.background {
+    background-image: url(./logo.jpg);
+    background-position: center;
+    background-size: 450px;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    opacity: 0.1;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+img {
+    max-width: 80px;
+    margin-right: 20px;
+}
+
+.title {
+    color: #2E3666;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: DFVN;
+}
+
+.container {
+}
+
+#search {
+    width: 97%;
+    line-height: 30px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 0;
+    overflow: unset;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+thead {
+    position: sticky;
+    top: 0px;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+tr:nth-child(odd) {
+    background-color: white;
+    color: #274A57;
+}
+tr:nth-child(even) {
+    background-color: #C4EAE6;
+    color: #274A57;
+}
+th {
+    background-color: #C4EAE6;
+    color: black;
+}
+
+th td {
+    position: sticky;
+    top: 0;
+}
