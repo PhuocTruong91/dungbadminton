@@ -60,6 +60,8 @@ img {
 }
 
 .container {
+    max-width: 786px;
+    margin:auto;
 }
 
 #search {
@@ -72,6 +74,7 @@ img {
     overflow: unset;
     padding-left: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    max-width: 450px;
 }
 
 table {
@@ -106,4 +109,11 @@ th {
 th td {
     position: sticky;
     top: 0;
+}
+
+.note {
+    font-size: 10px;
+    text-align: right;
+    margin-top: 10px;
+    color: red;
 }
