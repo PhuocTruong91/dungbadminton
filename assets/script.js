@@ -495,7 +495,7 @@ data = [
     },
     {
         "number": 72,
-        "name": "Dungx Bùi",
+        "name": "Dũng Bùi",
         "elo": 5.5,
         "gender": "Nam",
         "leader": false
