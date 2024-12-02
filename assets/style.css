@@ -7,6 +7,10 @@
     src: url('./Yeseva_One/YesevaOne-Regular.ttf');
 }
 
+.leader {
+    background-color: #F29D3F !important;
+}
+
 body {
     margin: 0;
     padding: 60px 20px;
